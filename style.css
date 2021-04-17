@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+body{
+    background-color: #f9f3f3;
+}
+.name{
+    width: 100%;
+    padding: 0 100px;
+}
+.name h2{
+    color: #206a5d;
+    padding: 50px 10px 0px 10px;
+    overflow: hidden;
+}
+.name h2:after{
+    content: "_";
+    display: inline-block;
+    height: 0.5em;
+    vertical-align: bottom;
+    width: 100%;
+    margin-right: -100%;
+    margin-left: 10px;
+    border-top: 5px solid #206a5d;
+}
+.name p{
+    padding-left: 10px;
+    text-align: justify;
+    justify-content: center;
+    font-size: 18px;
+    color: gray;
+    margin-top: 10px;
+}
+table{
+    width: 100%;
+    padding-left: 90px;
+}
+td {
+    color: #206a5d;
+    padding-left: 0;
+}
+td span{
+    color: gray;
+}
+td span a{
+    text-decoration: none;
+    color: rgb(73, 73, 160);
+}
+.experience{
+    width: 100%;
+    padding: 0 100px;
+    
+}
+.experience h3{
+    color: #206a5d;
+    padding: 20px 10px 0px 10px;
+    overflow: hidden;
+    letter-spacing: 3px;
+}
+.experience h3:after{
+    content: "_";
+    display: inline-block;
+    height: 0.5em;
+    vertical-align: bottom;
+    width: 100%;
+    margin-right: -100%;
+    margin-left: 10px;
+    border-top: 5px solid #206a5d;
+}
+.work-group{
+    margin: 10px 0;
+    padding-top: 0;
+}
+.work .work-group{
+    position: relative;
+}
+.work-group h4{
+    font-size: 24px;
+    font-weight: normal;
+    padding-left: 10px;
+    color: #206a5d;
+}
+.work-group h5{
+    font-size: 20px;
+    padding-left: 10px;
+    font-weight: normal;
+    color: #206a5d;
+}
+.work-group span{
+    position: absolute;
+    right: 0;
+    color: gray;
+    font-size: 14px;
+    margin-right: 100px;
+}
+.work-group p{
+    padding-left: 10px;
+    text-align: justify;
+    font-size: 18px;
+    color: gray;
+    margin-top: 10px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(235, 229, 229);
+}
+.edu-group{
+    margin: 10px 0;
+    padding-top: 0;
+}
+.education .edu-group{
+    position: relative;
+}
+.edu-group h4{
+    font-size: 24px;
+    font-weight: normal;
+    padding-left: 10px;
+    color: #206a5d;
+}
+.edu-group h5{
+    font-size: 20px;
+    padding-left: 10px;
+    font-weight: normal;
+    color: #206a5d;
+}
+.edu-group span{
+    position: absolute;
+    top: 10px;
+    right: 100px;
+    color: gray;
+    font-size: 14px;
+}
+.edu-group p{
+    padding-left: 10px;
+    text-align: justify;
+    font-size: 18px;
+    color: gray;
+    margin-top: 10px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(235, 229, 229);
+}
+.skill ul{
+    font-size: 18px;
+    padding-left: 35px;
+    font-weight: normal;
+}
+.skill ul li{
+    color: gray;
+    padding-top: 10px;
+}
+.project .proj-group{
+    position: relative;
+}
+.proj-group{
+    margin: 10px 0;
+    padding-top: 0;
+}
+.proj-group h4{
+    font-size: 24px;
+    font-weight: normal;
+    padding-left: 10px;
+    color: #206a5d;
+}
+.proj-group span{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    color: gray;
+    font-size: 14px;
+}
+.proj-group p{
+    padding-left: 10px;
+    text-align: justify;
+    font-size: 18px;
+    color: gray;
+    margin-top: 10px;
+}
+.volunteering .volun-group{
+    position: relative;
+}
+.volun-group{
+    margin: 10px 0;
+    padding-top: 0;
+}
+.volun-group h4{
+    font-size: 24px;
+    font-weight: normal;
+    padding-left: 10px;
+    color: #206a5d;
+}
+.volun-group h5{
+    font-size: 20px;
+    padding-left: 10px;
+    font-weight: normal;
+    color: #206a5d;
+}
+.volun-group span{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    color: gray;
+    font-size: 14px;
+}
+.volun-group p{
+    padding-left: 10px;
+    text-align: justify;
+    font-size: 18px;
+    color: gray;
+    margin-top: 10px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(235, 229, 229);
+}
+.referees{
+    padding-top: 0;
+    margin-top: 1px;
+}
+.referees h5{
+    font-size: 20px;
+    color:#206a5d;
+    padding-left: 10px;
+    font-weight: normal;
+    padding-top: 10px;
+}
+
